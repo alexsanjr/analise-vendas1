@@ -14,7 +14,6 @@ public class Program {
 
         System.out.print("Entre o caminho do arquivo: ");
         String path = sc.next();
-        System.out.println(path);
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             List<Sale> sales = new ArrayList<>();
